@@ -1,0 +1,16 @@
+#cmake_minimum_required(VERSION 3.14)
+project(BM3D_cpp)
+# set(CMAKE_CXX_STANDARD 10)
+
+include_directories(/usr/local/include/)
+link_directories(/usr/local/lib/)
+#link_directories(/usr/local/lib/libfftw3f.dylib /usr/local/lib/libpng16.dylib)
+#link_directories(BM3D_cpp /usr/local/Cellar/fftw/3.3.8_1/lib /usr/local/Cellar/libpng/1.6.37/lib)
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -O2")
+set(SOURCE_FILES bm3d.cpp bm3d.h io_png.c io_png.h lib_transforms.cpp lib_transforms.h mt19937ar.c mt19937ar.h utilities.cpp utilities.h main.cpp)
+add_library(mylib STATIC ${SOURCE_FILES})
+#set(SOURCE_FILES bm3d.cpp io_png.c lib_transforms.cpp mt19937ar.c utilities.cpp main.cpp)
+
+add_executable(BM3D_cpp ${SOURCE_FILES})
+target_link_libraries(BM3D_cpp mylib)
+#link_directories(BM3D_cpp fftw3f)
