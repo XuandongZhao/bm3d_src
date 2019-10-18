@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xuandongz/bm3d_src/io_png.c
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+assert.h
+-
+png.h
+/home/xuandongz/bm3d_src/png.h
+png.h
+-
+io_png.h
+/home/xuandongz/bm3d_src/io_png.h
+
+/home/xuandongz/bm3d_src/io_png.h
+
+/home/xuandongz/bm3d_src/mt19937ar.c
+stdio.h
+-
+mt19937ar.h
+/home/xuandongz/bm3d_src/mt19937ar.h
+
+/home/xuandongz/bm3d_src/mt19937ar.h
+
