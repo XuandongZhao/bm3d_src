@@ -22,7 +22,7 @@ This code requires the libpng library and the fftw library.
 
 - Image format. 
 Only the PNG format is supported. 
- 
+
 -------------------------------------------------------------------------
 Usage:
 1. Download the code package and extract it. Go to that directory. 
@@ -74,7 +74,7 @@ image). To do this, use computeBias = 1.
 in the step 1 (tau_2D_hard = dct or bior) and/or the step 2. (tau_2d_wien = dct or
 bior).
 (5) you can choose the colorspace for both steps between : rgb, yuv, ycbcr and opp.
- 
+
 Example, run
 ./BM3Ddenoising cinput.png 10 ImNoisy.png ImBasic.png ImDenoised.png ImDiff.png ImBias.png
 ImDiffBias.png 1 bior 0 dct 1 opp
@@ -87,4 +87,4 @@ Copyright 2011 IPOL Image Processing On Line http://www.ipol.im/
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright
 notice and this notice are preserved.  This file is offered as-is,
-without any warranty.
+without any warranty.q
