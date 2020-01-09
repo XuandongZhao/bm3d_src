@@ -5,26 +5,28 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/xuandongz/bm3d_src/io_png.c" "/home/xuandongz/bm3d_src/CMakeFiles/bm3d.dir/io_png.o"
-  "/home/xuandongz/bm3d_src/mt19937ar.c" "/home/xuandongz/bm3d_src/CMakeFiles/bm3d.dir/mt19937ar.o"
+  "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/io_png.c" "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/CMakeFiles/bm3d.dir/io_png.o"
+  "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/mt19937ar.c" "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/CMakeFiles/bm3d.dir/mt19937ar.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "PUBLIC"
+  "/usr/local/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuandongz/bm3d_src/bm3d.cpp" "/home/xuandongz/bm3d_src/CMakeFiles/bm3d.dir/bm3d.o"
-  "/home/xuandongz/bm3d_src/lib_transforms.cpp" "/home/xuandongz/bm3d_src/CMakeFiles/bm3d.dir/lib_transforms.o"
-  "/home/xuandongz/bm3d_src/main.cpp" "/home/xuandongz/bm3d_src/CMakeFiles/bm3d.dir/main.o"
-  "/home/xuandongz/bm3d_src/utilities.cpp" "/home/xuandongz/bm3d_src/CMakeFiles/bm3d.dir/utilities.o"
+  "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/bm3d.cpp" "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/CMakeFiles/bm3d.dir/bm3d.o"
+  "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/lib_transforms.cpp" "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/CMakeFiles/bm3d.dir/lib_transforms.o"
+  "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/main.cpp" "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/CMakeFiles/bm3d.dir/main.o"
+  "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/utilities.cpp" "/Users/zhaoxuandong/Documents/GitHub/bm3d_src/CMakeFiles/bm3d.dir/utilities.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "PUBLIC"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

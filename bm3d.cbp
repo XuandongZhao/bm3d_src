@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bm3d"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhaoxuandong/Documents/GitHub/bm3d_src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhaoxuandong/Documents/GitHub/bm3d_src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhaoxuandong/Documents/GitHub/bm3d_src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bm3d">
+				<Option output="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/bm3d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/PUBLIC"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 bm3d"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bm3d/fast">
+				<Option output="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/bm3d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/PUBLIC"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 bm3d/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaoxuandong/Documents/GitHub/bm3d_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/bm3d.cpp">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/bm3d.h">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/io_png.c">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/io_png.h">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/lib_transforms.cpp">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/lib_transforms.h">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/main.cpp">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/mt19937ar.c">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/mt19937ar.h">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/utilities.cpp">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/utilities.h">
+			<Option target="bm3d"/>
+		</Unit>
+		<Unit filename="/Users/zhaoxuandong/Documents/GitHub/bm3d_src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xuandongz/bm3d_src/io_png.c
+/Users/zhaoxuandong/Documents/GitHub/bm3d_src/io_png.c
 stdlib.h
 -
 stdio.h
@@ -16,19 +16,39 @@ math.h
 assert.h
 -
 png.h
-/home/xuandongz/bm3d_src/png.h
+/Users/zhaoxuandong/Documents/GitHub/bm3d_src/png.h
 png.h
 -
 io_png.h
-/home/xuandongz/bm3d_src/io_png.h
+/Users/zhaoxuandong/Documents/GitHub/bm3d_src/io_png.h
 
-/home/xuandongz/bm3d_src/io_png.h
+/Users/zhaoxuandong/Documents/GitHub/bm3d_src/io_png.h
 
-/home/xuandongz/bm3d_src/mt19937ar.c
+/Users/zhaoxuandong/Documents/GitHub/bm3d_src/mt19937ar.c
 stdio.h
 -
 mt19937ar.h
-/home/xuandongz/bm3d_src/mt19937ar.h
+/Users/zhaoxuandong/Documents/GitHub/bm3d_src/mt19937ar.h
 
-/home/xuandongz/bm3d_src/mt19937ar.h
+/Users/zhaoxuandong/Documents/GitHub/bm3d_src/mt19937ar.h
+
+/usr/local/include/png.h
+pnglibconf.h
+/usr/local/include/pnglibconf.h
+pngconf.h
+/usr/local/include/pngconf.h
+
+/usr/local/include/pngconf.h
+limits.h
+-
+stddef.h
+-
+stdio.h
+-
+setjmp.h
+-
+time.h
+-
+
+/usr/local/include/pnglibconf.h
 
